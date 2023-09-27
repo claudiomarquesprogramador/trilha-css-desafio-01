@@ -106,7 +106,7 @@ header {
 }
 
 #transform-world {
-    background-image: url(/assets/images/woman-code-reduced.jpg);
+    background-image: url(../images/woman-code-reduced.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
