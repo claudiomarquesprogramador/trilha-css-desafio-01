@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 605px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-size: cover;
+    padding-top: 56px;
+    border-bottom: 1px #33A8DB solid
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.logo img {
+    margin-top: 27px;
+    object-fit: cover;
+}
+
+.banner-content h1 {
+    margin: 16px 0;
+    color: #33A8DB;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 900;
+}
+
+.banner-content p {
+    width: 511px;
+    color: white;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    margin: auto;
+}
+
+.banner-content button {
+    width: 326px;
+    color: #31A8DD;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 900;
+    letter-spacing: 3.36px;
+    padding: 19px 0px;
+    border: 2px #3BA1CD solid;
+    background-color: transparent;
+    margin-top: 24px;
+}
+
+#course-content {
+    width: 792px;
+    padding: 128px 0;
+    margin: auto;
+}
+
+#course-content h2 {
+    color: #33A8DB;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    margin: 0 0 24px 0;
+}
+
+#course-content p {
+    color: white;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.module {
+    width: 535px;
+    padding: 16px 0;
+    margin: 0 auto 24px;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: white;
+    background: #252525;
+    box-shadow: -2px 6px 4px rgba(0, 0, 0, 0.40) inset;
+    border-radius: 57px;
+    border: 1px #33A8DB solid;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url(/assets/images/woman-code-reduced.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 111px 0 111px 198px;
+}
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    color: white;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 900;
+    text-shadow: 3px 2px rgb(51, 168, 219);
+    text-align: left;
+}
+
+#professional-challenges h2 {
+    color: #33A8DB;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    margin: 100px auto 56px;
+}
+
+#professional-challenges img {
+    width: 659px;
+    height: 429px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    color: white;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    margin: 32px auto 91px;
+}
+
+footer {
+    height: 170px;
+    border-top: 1px #33A8DB solid;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.20) 100%);
+    padding-top: 59px;
+}
+
+.dio-logo {
+    width: 310px;
+    height: 44px;
+}
+
+footer p {
+    margin-top: 10px auto 38px;
+    color: white;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+    header {
+        padding-top: 0;
+        height: auto;
+    }
+
+    .logo {
+        width: 50vmin;
+        height: 50vmin;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10vmin auto 10vmin;
+    }
+
+    .logo img {
+        width: 40vmin;
+        height: 40vmin;
+        margin-top: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 8vmin;
+        margin: 0;
+    }
+
+    .banner-content p {
+        width: auto;
+        max-width: 85vw;
+        font-size: 5vmin;
+        margin: 5vmin auto 5vmin;
+    }
+
+    .banner-content button {
+        width: auto;
+        padding: 19px 19px;
+        font-size: 4vmin;
+        margin: 0 auto 20vmin;
+    }
+
+    #course-content {
+        width: auto;
+        padding: 0;
+        margin: 20vmin auto 20vmin;
+    }
+
+    #course-content h2 {
+        font-size: 8vmin;
+    }
+
+    #course-content p {
+        font-size: 5vmin;
+        max-width: 85vw;
+        margin: 0 auto 10vmin;
+    }
+
+    .module {
+        max-width: 535px;
+        width: 90vw;
+        font-size: 4vmin;
+        padding: 16px 16px;
+        margin: 0 auto 5vmin;
+    }
+
+    #transform-world {
+        height: 60vh;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #transform-world p {
+        width: auto;
+        height: auto;
+        font-size: 8vmin;
+        text-align: left;
+        margin: 0 0 0 10vw;
+    }
+
+    #professional-challenges h2 {
+        font-size: 5vmin;
+        margin: 20vmin 16px 10vmin;
+    }
+
+    #professional-challenges img {
+        width: 100vmin;
+        height: auto;
+    }
+
+    #professional-challenges p {
+        width: auto;
+        max-width: 85vw;
+        font-size: 4vmin;
+        margin: 10vmin auto 20vmin;
+    }
+
+    .dio-logo {
+        width: 50vw;
+        max-width: 310px;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 5vmin 0 5vmin;
+    }
+
+    footer p {
+        font-size: 4vmin;
+        margin: 0;
+    }
+}
